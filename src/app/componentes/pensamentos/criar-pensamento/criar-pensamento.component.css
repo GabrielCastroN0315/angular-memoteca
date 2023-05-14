@@ -1,0 +1,22 @@
+  .formulario {
+      width: auto;
+      background-color: rgb(178, 218, 234);
+      padding: 30px 10%;
+      text-align: left;
+      border: auto dotted rgba(136, 207, 248, 0.699);
+      border-radius: 20px;
+  }
+
+  input-text {
+    width: 100px;
+
+   }
+
+  ::-webkit-input-placeholder {
+      color: rgb(17, 0, 255);
+      width: 500%;
+      padding-top: 10px;
+    padding-right:10px ;
+    padding-bottom:10px ;
+    padding-left:10px ;
+  }
