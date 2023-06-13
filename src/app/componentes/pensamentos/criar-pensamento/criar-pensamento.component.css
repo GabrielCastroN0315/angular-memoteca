@@ -1,25 +1,53 @@
 .formulario {
-    width: 1040px;
-    background-color: rgb(178, 218, 234);
-    padding: 59px 4%;
-    text-align:center;
-    border: auto dotted rgba(136, 207, 248, 0.699);
-    border-radius: 20px;
-    margin-top: 4%;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-    text-align: left;
-  }
-  
-  .input {
-    border: 2px solid white;
-    width: 99%;
-    height: 54px;
-    border-radius: 14px;
-    text-align: 14px;
-  }
+  width: 1040px;
+  background-color: rgb(178, 218, 234);
+  padding: 59px 4%;
+  text-align: center;
+  border: auto dotted rgba(136, 207, 248, 0.699);
+  border-radius: 20px;
+  margin-top: 4%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: left;
+}
 
-  .acoes {
-    justify-content: flex-end;
-  }
+.input {
+  border: 2px solid white;
+  width: 99%;
+  height: 54px;
+  border-radius: 14px;
+  text-align: 14px;
+}
+
+#container-radio {
+  display: flex;
+}
+
+.card {
+  flex:1;
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+  border: 1px solid black;
+  margin: 0 10px;
+}
+.card-teste {
+  /* flex:1; */
+  display:inline-block;
+  width: 200px;
+  height: 50px;
+  border: 1px solid black;
+  margin: -186px 263px;
+}
+
+.rown {
+  border: 1px red;
+}
+
+.modelo1 {
+  border-radius: 70%;
+  margin :10px;
+  color:blueviolet
+  
+}
